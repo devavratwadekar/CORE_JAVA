@@ -1,0 +1,90 @@
+In Java, data is stored in variables, which can have different data types
+
+Data Types:
+    Data types in Java are divided into two main categories:
+    1. Primitive Data Types
+    2. Non-Primitive Data Types (to be discussed in upcoming chapters)
+
+Primitive data types: 
+    Primitive data types in Java are the foundational building blocks of data manipulation. 
+    Unlike more complex data structures, they represent simple values such as a single number or character. 
+    Java offers eight primitive types: byte, short, int, long, float, double, char, and boolean and 
+    it can be further classified into the following sub-categories:
+    1. Integer types
+    2. Floating-point types
+    3. Character type
+    4. Boolean type
+
+Detailed Breakdown of Primitive Data Types
+    1. Integer
+    The integer data types are used for storing whole numbers, which include natural numbers, zeros, 
+    and negative numbers. Different integer data types are available based on the range and size 
+    required:
+    ● byte: 1 byte (8 bits), range: -128 to 127
+    ● short: 2 bytes (16 bits), range: -32,768 to 32,767
+    ● int: 4 bytes (32 bits), range: -2^31 to 2^31 - 1
+    ● long: 8 bytes (64 bits), range: -2^63 to 2^63 - 1 (use an 'L' suffix to specify a long literal, e.g., 123456789L)
+
+    2. Character
+    The char type is used to store a single character, such as a letter, digit, or symbol, enclosed in 
+    single quotes (e.g., 'A'). It has a size of 2 bytes (16 bits) because Java uses the Unicode standard, 
+    which accommodates a broader range of characters compared to ASCII
+
+    3. Boolean
+    The boolean type represents a truth value and can hold only two possible values: true or false. 
+    It is primarily used in conditional statements. Unlike some other programming languages that 
+    might represent boolean values with 0 and 1, Java strictly uses the keywords true and false. 
+    This means that in Java, you cannot use integers to represent boolean values—only true or false 
+    are valid. 
+    
+    In Java, the boolean data type is unique compared to languages that might allow numerical 
+    representations (like 0 for false and 1 for true). Java does not support 0 and 1 as boolean values. 
+    The boolean data type strictly allows only two values: 
+    ● true
+    ● false
+    
+    This design decision helps prevent logical errors and ensures that conditions in your code are 
+    clear and unambiguous.
+
+
+    4. Float and Double
+    These data types are used for storing decimal or floating-point numbers:
+    ● float: 4 bytes, single-precision, range approximately ±3.40282347E+38F (use 'f' suffix, e.g., 3.14f)
+    ● double: 8 bytes, double-precision, range approximately ±1.79769313486231570E+308 (default for decimal numbers)
+
+    Sizes and Ranges of Primitive Data Types
+    Data Type   Size        Range                       Example
+    byte        1 byte      -128 to 127                 byte b = 100;
+    short       2 bytes     -32,768 to 32,767           short s = 3000;
+    int         4 bytes     -2^31 to 2^31 - 1           int i = 123489;
+    long        8 bytes     -2^63 to 2^63 - 1           long l = 123456789L;
+    float       4 bytes     ±3.40282347E+38F            float f = 3.14f;
+    double      8 bytes     ±1.79769313486231570E+308   double d = 3.14159;
+    char        2 bytes     0 to 65,535 (Unicode)       char c = 'A';
+    boolean     1 bit       true or false               boolean flag = true
+
+public class DataType {
+    public static void main(String[] args) {
+        int i = 10;
+
+        byte b = 127;
+
+        short s = 13365;
+
+        long l = 3456789l;
+
+        float f = 456.45f;
+
+        double d = 4567.4567;
+
+        char c = 'D';
+
+        boolean bool = true;
+        
+    }
+}
+
+This Java program demonstrates the declaration and initialization of
+various primitive data types, including `int`, `byte`, `short`, `long`, `float`,
+`double`, `char`, and `boolean`. Each variable is assigned a specific value
+to illustrate how these data types can be used in Java.
