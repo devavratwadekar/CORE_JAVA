@@ -1,0 +1,36 @@
+# Logical Operators
+    Logical operators in Java are used to perform logical operations on boolean expressions. 
+    These operators are crucial for decision-making in programs.
+    Heres a breakdown of the main logical operators:
+
+    1. Logical AND (& and &&)
+    ● & (Bitwise AND): Evaluates both operands.
+    ● && (Short-Circuit AND): Evaluates the second operand only if the first is true.
+
+    Both conditions (x > y) and (a < b) are true, so the result is true.
+
+    2. Logical OR (| and ||)
+    ● | (Bitwise OR): Evaluates both operands.
+    ● || (Short-Circuit OR): Evaluates the second operand only if the first is false.
+
+    The first condition (x > y) is true, so the result is true regardless of the second condition.
+
+    3. Logical NOT (!)
+    ● !: Inverts the boolean value of an expression.
+
+    Since (x < y) is false, !(x < y) becomes true.
+
+    4. Logical XOR (^)
+    ● If precisely one operand is true, the function returns true; if not, it returns false.
+
+    Both (x > y) and (a < b) are true, so the XOR result is false
+
+
+# Key Points
+    ● Logical AND (&&) and Logical OR (||)
+    are short-circuit operators, meaning they can skip evaluating the second operand if the result is already determined 
+    by the first operand.
+
+    ● Logical NOT (!) negates the boolean value of an expression.
+
+    ● Logical XOR (^) is true only if exactly one of the operands is true.
