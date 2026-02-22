@@ -1,0 +1,20 @@
+# Operators in Java
+    Operators are symbols that perform specific operations on one or more operands. In Java, we commonly use operators for basic arithmetic operations like addition (+), subtraction (-), multiplication (*), and division (/), as well as for other functions like modulus (%).
+
+● Addition (+): Adds two operands.
+● Subtraction (-): subtracts the second operand from the first.
+● Multiplication (*): Multiplies two operands.
+● Division (/): Divides the first operand by the second, giving the quotient.
+● Modulus (%) : Returns the remainder after division.
+
+# Increment and Decrement Operators
+    The increment (++) and decrement (--) operators always change the value by 1.
+    These can be applied in two forms: pre and post.
+
+● Pre-increment (++x)/Pre-decrement (--x): Increases or decreases the value before the operation is performed.
+● Post-increment (x++) / post-decrement (x--): Increases or decreases the value after the operation is performed.
+
+
+# Key Differences:
+● Pre-increment/decrement: Modifies the variable's value before using it in an expression.
+● Post-increment/decrement: Uses the variable's original value in the expression before modifying it.
