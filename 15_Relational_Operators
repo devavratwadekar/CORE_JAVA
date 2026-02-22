@@ -1,0 +1,17 @@
+# Relational Operators
+    Java Relational Operators are binary operators that are used to evaluate relationships between two operands, such as 
+    equality, greater than, less than, and so on. These comparisons return boolean results, and they are commonly used in 
+    looping statements, conditional if-else statements, and similar constructs. The standard format for representing a 
+    relational operator is:
+
+Syntax:
+variable1 relational_operator variable2
+
+# implementation:
+
+Equality (==)   : Checks if two values are equal.
+Inequality (!=) : Checks if two values are not equal.
+Greater than (>): checks if the left operand is greater than the right operand.
+Less than (<)   : Checks if the left operand is less than the right operand.
+Greater than or equal to (>=): Checks if the left operand is greater than or equal to the right operand.
+Less than or equal to (<=)   : Checks if the left operand is less than or equal to the right operand
