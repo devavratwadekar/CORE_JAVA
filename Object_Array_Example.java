@@ -30,8 +30,11 @@ public class Object_Array_Example {
         kids[1] = k2;
         kids[2] = k3;
 
-        for (int i = 0; i < kids.length; i++) {
-            System.out.println(kids[i].name + " : " + kids[i].age + " : " + kids[i].address);
+        // for (int i = 0; i < kids.length; i++) {
+        //     System.out.println(kids[i].name + " : " + kids[i].age + " : " + kids[i].address);
+        // }
+        for (Kids k : kids) {
+            System.out.println(k.name + " : " + k.age + " : " + k.address);
         }
     }
 }
